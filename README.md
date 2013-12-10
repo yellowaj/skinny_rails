@@ -4,9 +4,13 @@ Put your Rails app on a diet. This is a very simple Rails generator to remove un
 
 ## Installation
 
-Install gem:
+Add gem to Gemfile:
 
-	$ gem install skinny_rails
+	gem 'skinny_rails', require: false
+
+Install via bundler:
+
+	 $ bundle install
 
 And then from your existing Rails4 app, run:
 
