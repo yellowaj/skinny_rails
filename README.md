@@ -1,4 +1,4 @@
-# LazyImageTag
+# SkinnyRails
 
 Put your Rails app on a diet. This is a very simple Rails generator to remove unnecessary dependencies from your app for basic "static" sites.
 
