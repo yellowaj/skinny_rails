@@ -8,7 +8,7 @@ Install gem:
 
 	$ gem install skinny_rails
 
-And then from your existing Rails4 root, run:
+And then from your existing Rails4 app, run:
 
 	$ rails generate skinny_rails
 
@@ -16,19 +16,19 @@ And then from your existing Rails4 root, run:
 
 The included generator will perform the following tasks:
 
-	* Only load the following Railties:
-		* action_controller
-		* rails/test_unit
-		* sprockets
-	* Remove unnecessary files/folders:
-		* config/data.yml
-		* db/seeds.rb
-		* db/schema.rb
-		* app/mailers
-		* test/mailers
-	* Comment-out database gems from Gemfile
-	* Disable any config settings from now-missing modules
-	* Remove session/cookie middleware
+* Only load the following Railties:
+	* action_controller
+	* rails/test_unit
+	* sprockets
+* Remove unnecessary files/folders:
+	* config/data.yml
+	* db/seeds.rb
+	* db/schema.rb
+	* app/mailers
+	* test/mailers
+* Comment-out database gems from Gemfile
+* Disable any config settings from now-missing modules
+* Remove session/cookie middleware
 
 ## Contributing
 
