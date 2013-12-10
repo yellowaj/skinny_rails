@@ -24,7 +24,8 @@ end )
 			config/database.yml
 			db/schema.rb
 			db/seeds.rb
-			app/mailers 
+			app/mailers
+			test/mailers
 		).each do |file|
 			remove_file file
 		end
